@@ -17,4 +17,5 @@
 %   cx2iq       - Convert a complex vector to a Nx2 matrix.
 %   iq2cx       - Convert a Nx2 real matrix to a complex Nx1 vector.
 %   mse         - Compute mean squared error.
+%   roundodd    - Round to the nearest odd integer.
 %   rmsdelay    - Compute RMS delay spread.
