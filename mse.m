@@ -7,6 +7,7 @@ function [m] = mse(ref, cmp)
 %   Rick Lan
 %   See LICENSE for the license.
 %
+error(nargchk(2, 2, nargin));
 e = cmp - ref;
 num = mean( cmp.*conj(cmp) );
 den = mean( e.*conj(e) );

@@ -7,6 +7,7 @@ function [data]=readbin(file_name)
 %   Rick Lan
 %   See LICENSE for the license.
 %
+error(nargchk(1, 1, nargin));
 fid = fopen(file_name, 'r');
 data = fread(fid, 'uint32');
 fclose(fid);

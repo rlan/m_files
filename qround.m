@@ -6,4 +6,5 @@ function [y]=qround(x,lsb)
 %   Rick Lan
 %   See LICENSE for the license.
 %
+error(nargchk(2, 2, nargin));
 y = round(x.* (2^lsb)).*(2^-lsb);

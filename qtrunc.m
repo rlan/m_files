@@ -6,4 +6,5 @@ function [y]=qtrunc(x,lsb)
 %   Rick Lan
 %   See LICENSE for the license.
 %
+error(nargchk(2, 2, nargin));
 y = floor(x.* (2^lsb)).*(2^-lsb);
