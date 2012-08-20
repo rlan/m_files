@@ -19,3 +19,4 @@
 %   mse         - Compute mean squared error.
 %   roundodd    - Round to the nearest odd integer.
 %   rmsdelay    - Compute RMS delay spread.
+%   snr         - Compute signal-to-noise ratio.
