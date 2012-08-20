@@ -9,6 +9,4 @@ function [m] = mse(ref, cmp)
 %
 error(nargchk(2, 2, nargin));
 e = cmp - ref;
-num = mean( cmp.*conj(cmp) );
-den = mean( e.*conj(e) );
-m = num / den;
+m = mean( e.*conj(e) );
