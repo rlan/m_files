@@ -13,6 +13,8 @@
 %Plots and Graphics:
 %   xlimall     - Call XLIM for each subplots of the figure.
 %   ylimall     - Call YLIM for each subplots of the figure.
+%Communications:
+%   kfft        - Return FFT bin indices.
 %Signal Processing:
 %   cx2iq       - Convert a complex vector to a Nx2 matrix.
 %   iq2cx       - Convert a Nx2 real matrix to a complex Nx1 vector.
