@@ -23,4 +23,4 @@
 %   rmsdelay    - Compute RMS delay spread.
 %   snr         - Compute signal-to-noise ratio.
 %Probability and Statistics:
-%   binomial    - Evaluate binomial distribution.
+%   binomial    - Evaluate binomial probability density function.

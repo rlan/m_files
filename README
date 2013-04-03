@@ -32,7 +32,8 @@ Documentation is embedded in the source code. Use "help command" in MATLAB.
     iq2cx       - Convert a Nx2 real matrix to a complex Nx1 vector.
     mse         - Compute mean squared error.
     rmsdelay    - Compute RMS delay spread.
-
+ Probability and Statistics:
+    binomial    - Evaluate binomial probability density function.
 
 LICENSE
 =======

@@ -1,6 +1,6 @@
-function [prob]=binomial(p, n, k)
-%BINOMIAL Evaluate binomial distribution
-%   prob = binomial(p, n, k)
+function [prob]=binomial(k, n, p)
+%BINOMIAL Evaluate binomial probability density function
+%   prob = binomial(k, n, p)
 %
 %   P(X=k) = nchoosek(n, k) * p^k * (1-p)^(n-k)
 %
@@ -9,4 +9,4 @@ function [prob]=binomial(p, n, k)
 %
 error(nargchk(3, 3, nargin));
 
-prob = nchoosek(n, k) * p^k * (1-p)^(n-k);
+prob = factorial(n)./factorial(k)./factorial(n-k) .* p.^k .* (1-p).^(n-k);
