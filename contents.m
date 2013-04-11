@@ -24,3 +24,4 @@
 %   snr         - Compute signal-to-noise ratio.
 %Probability and Statistics:
 %   binomial    - Evaluate binomial probability density function.
+%   normal      - Evaluate normal probability density function.
